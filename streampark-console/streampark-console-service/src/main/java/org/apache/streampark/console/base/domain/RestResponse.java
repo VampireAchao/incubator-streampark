@@ -30,7 +30,7 @@ public class RestResponse extends HashMap<String, Object> {
   public static final String MESSAGE_KEY = "message";
   public static final String DATA_KEY = "data";
 
-  private static final long serialVersionUID = -8713837118340960775L;
+  private static final long serialVersionUID = 1L;
 
   public static RestResponse success(Object data) {
     RestResponse resp = new RestResponse();
