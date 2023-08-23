@@ -235,6 +235,10 @@
                     <groupId>commons-collections</groupId>
                     <artifactId>commons-collections</artifactId>
                 </exclusion>
+                <exclusion>
+                    <groupId>org.pac4j</groupId>
+                    <artifactId>pac4j-saml-opensamlv3</artifactId>
+                </exclusion>
             </exclusions>
         </dependency>
 
@@ -447,7 +451,7 @@
             <groupId>dev.zio</groupId>
             <artifactId>zio-logging_${scala.binary.version}</artifactId>
         </dependency>
-      
+
         <dependency>
             <groupId>dev.zio</groupId>
             <artifactId>zio-streams_${scala.binary.version}</artifactId>
